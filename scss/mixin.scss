@@ -1,0 +1,35 @@
+@mixin content-position() {
+    content: '';
+    position: absolute;
+}
+
+@mixin animation($delay) {
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-delay: $delay;
+    animation-iteration-count: infinite;
+}
+
+@mixin position-dimention($width, $height, $backgroundColor, $top, $left) {
+    width: $width;
+    height: $height;
+    background-color: $backgroundColor;
+    top: $top;
+    left: $left;
+}
+
+@mixin top-right($width, $height, $backgroundColor, $top, $right) {
+    width: $width;
+    height: $height;
+    background-color: $backgroundColor;
+    top: $top;
+    right: $right;
+}
+
+@mixin top-left($width, $height, $backgroundColor, $top, $left) {
+    width: $width;
+    height: $height;
+    background-color: $backgroundColor;
+    top: $top;
+    left: $left;
+}

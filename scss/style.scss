@@ -1,0 +1,88 @@
+@import "./mixin.scss";
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background: #02003e;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.content-1 {
+    border-radius: 50%;
+    @include animation(1000ms);
+    @include position-dimention(20px, 20px, brown, 100px, 200px);
+}
+
+.content-2 {
+    @include animation(1200ms);
+    @include position-dimention(15px, 15px, greenyellow, 100px, 100px);
+}
+
+.content-3 {
+    @include animation(1400ms);
+    @include top-right(10px, 10px, white, 100px, 100px)
+}
+
+.content-4 {
+    @include animation(1600ms);
+    @include top-right(20px, 20px, blueviolet, 300px, 300px)
+}
+
+.content-5 {
+    @include animation(1800ms);
+    @include top-right(15px, 15px, orange, 200px, 400px)
+}
+
+.content-6 {
+    @include animation(2000ms);
+    @include top-right(15px, 15px, pink, 280px, 250px)
+}
+
+.content-7 {
+    @include animation(2200ms);
+    @include top-right(10px, 10px, gray, 400px, 850px)
+}
+
+.content-8 {
+    @include animation(2400ms);
+    @include position-dimention(15px, 15px, blue, 550px, 655px);
+}
+
+.content-9 {
+    @include animation(2600ms);
+    @include position-dimention(20px, 20px, rgb(255, 0, 149), 445px, 590px);
+}
+
+.content-10 {
+    @include animation(2800ms);
+    @include top-right(22px, 22px, green, 440px, 778px)
+}
+
+.content-11 {
+    @include animation(3000ms);
+    @include top-right(10px, 10px, yellow, 310px, 1345px)
+}
+
+.content-12 {
+    @include animation(3200ms);
+    @include top-left(15px, 15px, rgb(0, 255, 234), 145px, 190px)
+}
+
+.content-13 {
+    @include animation(3400ms);
+    @include top-left(20px, 20px, gray, 470px, 540px)
+}
+
+.content-14 {
+    @include position-dimention(10px, 10px, black, 433px, 915px);
+    @include animation(3600ms);
+}
