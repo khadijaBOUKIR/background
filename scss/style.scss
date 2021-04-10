@@ -86,3 +86,68 @@ html {
     @include position-dimention(10px, 10px, black, 433px, 915px);
     @include animation(3600ms);
 }
+
+.content-15 {
+    @include animation(3800ms);
+    @include position-dimention(10px, 10px, white, 433px, 915px);
+}
+
+.content-16 {
+    @include animation(4000ms);
+    @include position-dimention(15px, 15px, brown, 455px, 999px)
+}
+
+.content-17 {
+    @include animation(4200ms);
+    @include position-dimention(20px, 20px, rgb(255, 0, 255), 433px, 915px)
+}
+
+.content-18 {
+    @include animation(4400ms);
+    @include position-dimention(22px, 22px, rgb(87, 165, 42), 433px, 915px)
+}
+
+.content-19 {
+    @include animation(4600ms);
+    @include position-dimention(10px, 10px, orange, 433px, 915px)
+}
+
+.content-20 {
+    @include animation(4800ms);
+    @include position-dimention(15px, 15px, gray, 433px, 915px)
+}
+
+.content-21 {
+    @include animation(5000ms);
+    @include position-dimention(20px, 20px, white, 433px, 915px)
+}
+
+.content-22 {
+    @include animation(5000ms);
+    @include position-dimention(20px, 20px, brown, 433px, 1500px)
+}
+
+.content-23 {
+    @include animation(5000ms);
+    @include position-dimention(20px, 20px, yellow, 433px, 800px)
+}
+
+.content-24 {
+    @include animation(5000ms);
+    @include position-dimention(20px, 20px, rgb(255, 0, 255), 433px, 1000px)
+}
+
+.content-25 {
+    @include animation(5000ms);
+    @include position-dimention(20px, 20px, rgb(87, 165, 42), 2px, 100px)
+}
+
+.content-26 {
+    @include animation(5000ms);
+    @include position-dimention(20px, 20px, orange, 7000px, 500px)
+}
+
+.content-27 {
+    @include animation(5000ms);
+    @include position-dimention(20px, 20px, gray, 300px, 1600px)
+}

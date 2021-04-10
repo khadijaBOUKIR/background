@@ -166,3 +166,146 @@ html {
   animation-duration: 4s;
   animation-delay: 3600ms;
   animation-iteration-count: infinite; }
+
+.content-15 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 3800ms;
+  animation-iteration-count: infinite;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  top: 433px;
+  left: 915px; }
+
+.content-16 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 4000ms;
+  animation-iteration-count: infinite;
+  width: 15px;
+  height: 15px;
+  background-color: brown;
+  top: 455px;
+  left: 999px; }
+
+.content-17 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 4200ms;
+  animation-iteration-count: infinite;
+  width: 20px;
+  height: 20px;
+  background-color: magenta;
+  top: 433px;
+  left: 915px; }
+
+.content-18 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 4400ms;
+  animation-iteration-count: infinite;
+  width: 22px;
+  height: 22px;
+  background-color: #57a52a;
+  top: 433px;
+  left: 915px; }
+
+.content-19 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 4600ms;
+  animation-iteration-count: infinite;
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+  top: 433px;
+  left: 915px; }
+
+.content-20 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 4800ms;
+  animation-iteration-count: infinite;
+  width: 15px;
+  height: 15px;
+  background-color: gray;
+  top: 433px;
+  left: 915px; }
+
+.content-21 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 5000ms;
+  animation-iteration-count: infinite;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  top: 433px;
+  left: 915px; }
+
+.content-22 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 5000ms;
+  animation-iteration-count: infinite;
+  width: 20px;
+  height: 20px;
+  background-color: brown;
+  top: 433px;
+  left: 1500px; }
+
+.content-23 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 5000ms;
+  animation-iteration-count: infinite;
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  top: 433px;
+  left: 800px; }
+
+.content-24 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 5000ms;
+  animation-iteration-count: infinite;
+  width: 20px;
+  height: 20px;
+  background-color: magenta;
+  top: 433px;
+  left: 1000px; }
+
+.content-25 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 5000ms;
+  animation-iteration-count: infinite;
+  width: 20px;
+  height: 20px;
+  background-color: #57a52a;
+  top: 2px;
+  left: 100px; }
+
+.content-26 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 5000ms;
+  animation-iteration-count: infinite;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  top: 7000px;
+  left: 500px; }
+
+.content-27 {
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-delay: 5000ms;
+  animation-iteration-count: infinite;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  top: 300px;
+  left: 1600px; }
